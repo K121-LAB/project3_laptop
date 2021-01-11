@@ -1,0 +1,258 @@
+*{
+padding:0;
+margin:0;
+}
+:root{
+background-color:hsl(300,30%,99%);
+font-family: 'Poppins',
+sans-serif;
+ }
+
+/*HEADING & RATING*/
+
+.container__heading{
+ width:280px;
+   
+ color:hsl(303,76%,15%);
+ margin:50px 0px 0px 140px;
+
+
+ display:flex;
+
+ font-size:40px;
+
+}
+
+
+
+.container__text{
+ margin: 40px 0px 0px 155px;
+
+
+ display:inline-block;
+
+ width:31%;
+ color:hsl(303,76%,15%);
+ opacity:0.4;
+font-size:15px;}
+
+/*RATING SECTION*/
+
+.rating{
+float:right;
+margin: -9% 20% 0% 0%;
+
+}
+
+.review{
+	box-sizing: border-box;
+	width: 200%;
+	border:none;
+	font-size:15px;
+	margin-left: -110%;
+	color:hsl(303,76%,15%);
+	background-color:hsl(349,27%,95%);
+	padding:9px;
+	border-radius:7px;
+	text-align:center;}
+
+.Rguru{
+	box-sizing: border-box;
+	width: 200%;
+	border:none;
+	font-size:15px;
+	margin-left: -80%;
+	margin-top:9%;
+	color:hsl(303,76%,15%);
+	background-color:hsl(349,27%,95%);
+	padding:9px;
+	border-radius:7px;
+	text-align:center;}
+
+.besttech{
+	box-sizing: border-box;
+	width: 200%;
+	border:none;
+	font-size:15px;
+	margin-left: -57%;
+	margin-top:10%;
+	color:hsl(303,76%,15%);
+	background-color:hsl(349,27%,95%);
+	padding:9px;
+	border-radius:7px;
+	text-align:center;}
+
+/* 5 STAR RATING ICON */ 
+.review__icon{
+	background-image:url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico');
+	background-size:13px 15px;
+ 
+	background-repeat: no-repeat,no-repeat,
+	no-repeat,no-repeat,no-repeat; 
+	background-position:15px 8px,34px 8px,
+	53px 8px,72px 8px,90px 8px;
+	}
+.Rguru__icon{
+	background-image:url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico');
+	background-size:13px 15px;
+ 
+	background-repeat: no-repeat,no-repeat,
+	no-repeat,no-repeat,no-repeat; 
+	background-position:15px 8px,34px 8px,
+	53px 8px,72px 8px,90px 8px;
+	}
+.besttech__icon{
+	background-image:url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico'),
+	url('./images/star.ico');
+	background-size:13px 15px;
+ 
+	background-repeat: no-repeat,no-repeat,
+	no-repeat,no-repeat,no-repeat; 
+	background-position:15px 8px,34px 8px,
+	53px 8px,72px 8px,90px 8px;
+	}
+
+/* CARDS */ 
+
+.card__icon {
+  
+  	display: inline-block;
+ 
+  	height:45px;
+ 
+  	width:45px;
+
+  	float:left;
+  
+  	margin-top:-48%;
+  	margin-left:5%;
+  	background-size: contain;
+   
+  	background-repeat: no-repeat;}
+
+
+
+.card {
+	height:200px;
+
+	width:330px;
+       
+	border-radius: 13px;
+    
+	box-sizing: border-box;
+    
+	padding:20px;
+    
+	background-color: hsl(309,91%,21%);
+    
+	margin:14px 19px;
+}
+
+
+.card__heading {
+  
+  	font-weight:545;
+  
+  	font-size: 15px;
+
+ 	text-align:center;   
+  	color: #fff;
+   
+  	margin-top:15px;
+
+  	margin-left:-30px;}
+
+
+.card__text {
+  
+  	line-height:17px;
+  
+  	font-size: 15px;
+  
+  	color: #fff;
+
+  	margin-top:35px;}
+
+
+.profession{
+	font-size: 10px;
+
+	text-align:center;
+	color:hsl(305,73%,59%);
+	opacity:0.5;
+	margin-left:-35px;}
+
+.card__icon--one {
+ 
+   background-image: url('./images/my pic.jpg');
+
+}
+
+
+.card__icon--two {
+  
+  background-image: url('./images/my pic.jpg');
+}
+
+
+.card__icon--three {
+  
+  background-image: url('./images/my pic.jpg');
+
+}
+
+
+.card__icon {
+  
+  	vertical-align:middle;
+  	float:left;
+	border-radius:50%;
+	height:50;
+	width:50;
+  	margin-top:-47%;
+  	margin-left:6%;
+   
+  	background-repeat: no-repeat;}
+
+
+
+.card--one{
+position:relative;
+margin-top:45px;
+margin-left:140px;
+
+}
+
+.card--two{
+position:relative;
+margin-top:-13.5%;
+margin-left:38%;
+}
+
+ .card--three{
+position:relative;
+margin-top:-13%;
+margin-left:65.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
