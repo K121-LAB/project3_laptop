@@ -11,36 +11,37 @@ sans-serif;
 /*HEADING & RATING*/
 
 .container__heading{
- width:280px;
-   
- color:hsl(303,76%,15%);
- margin:50px 0px 0px 140px;
+color:hsl(303,76%,15%);
+display:flex;
 
+width:280px;
+	height:250px; 
+	font-size:40px;  
+	margin:60px 0px 0px 140px;
 
- display:flex;
-
- font-size:40px;
 
 }
 
 
 
 .container__text{
- margin: 40px 0px 0px 155px;
+ display:flex;
 
-
- display:inline-block;
-
- width:31%;
  color:hsl(303,76%,15%);
  opacity:0.4;
-font-size:15px;}
+margin: -90px 0px 0px 155px;
+
+
+ width:31%;
+font-size:15px;
+padding:9px;
+}
 
 /*RATING SECTION*/
 
 .rating{
 float:right;
-margin: -9% 20% 0% 0%;
+
 
 }
 
@@ -48,8 +49,8 @@ margin: -9% 20% 0% 0%;
 	box-sizing: border-box;
 	width: 200%;
 	border:none;
-	font-size:15px;
-	margin-left: -110%;
+	margin-left: -220%;
+	margin-top:-105%;
 	color:hsl(303,76%,15%);
 	background-color:hsl(349,27%,95%);
 	padding:9px;
@@ -61,7 +62,7 @@ margin: -9% 20% 0% 0%;
 	width: 200%;
 	border:none;
 	font-size:15px;
-	margin-left: -80%;
+	margin-left: -190%;
 	margin-top:9%;
 	color:hsl(303,76%,15%);
 	background-color:hsl(349,27%,95%);
@@ -74,7 +75,7 @@ margin: -9% 20% 0% 0%;
 	width: 200%;
 	border:none;
 	font-size:15px;
-	margin-left: -57%;
+	margin-left: -160%;
 	margin-top:10%;
 	color:hsl(303,76%,15%);
 	background-color:hsl(349,27%,95%);
@@ -129,13 +130,14 @@ margin: -9% 20% 0% 0%;
   
   	display: inline-block;
  
+	border-radius:50%;
   	height:45px;
  
   	width:45px;
 
   	float:left;
   
-  	margin-top:-48%;
+  	margin-top:-140px;
   	margin-left:5%;
   	background-size: contain;
    
@@ -191,7 +193,8 @@ margin: -9% 20% 0% 0%;
 	text-align:center;
 	color:hsl(305,73%,59%);
 	opacity:0.5;
-	margin-left:-35px;}
+	margin-left:-30px;
+	margin-top:-1px;}
 
 .card__icon--one {
  
@@ -213,46 +216,95 @@ margin: -9% 20% 0% 0%;
 }
 
 
-.card__icon {
-  
-  	vertical-align:middle;
-  	float:left;
-	border-radius:50%;
-	height:50;
-	width:50;
-  	margin-top:-47%;
-  	margin-left:6%;
-   
-  	background-repeat: no-repeat;}
-
-
-
 .card--one{
 position:relative;
-margin-top:45px;
-margin-left:140px;
+margin-top:20px;
+margin-left:135px;
 
 }
 
 .card--two{
 position:relative;
-margin-top:-13.5%;
-margin-left:38%;
+margin-top:-170px;
+margin-left:520px;
 }
 
  .card--three{
 position:relative;
-margin-top:-13%;
-margin-left:65.5%;
+margin-top:-170px;
+margin-left:905px;
 }
 
 
+@media (max-width:375px) {
+  
+  .card__container{
+     
+   flex-wrap:wrap;
+     
+   justify-content: center;
+     
+  }
 
 
+.container__heading{
+font-size:14.5px;
+margin-top:15px;
+flex-wrap:inline;
+margin-left:40px;
+}
+.container__text{
+font-size:10px;
+flex-wrap:wrap;
 
+ 
+width:320px;
+margin-top:-65%;
+margin-left:10px;
+}
 
+.card--one{
+position:relative;
+margin-top:163px;
+margin-left:13.5px;
 
+}
 
+.card--two{
+position:relative;
+margin-top:-1px;
+margin-left:13.5px;
+}
+.card--three{
+position:relative;
+margin-top:-1px;
+margin-left:13.5px;
+}
+.review, .Rguru, .besttech {
+	height:35px;
+	width: 337px;
+	font-size:11px;
+	margin-left:-12px;
+	margin-right:13px;
+	margin-top:10px;
+	padding:20px;}
+.review__icon, .Rguru__icon, .besttech__icon {
+	background-size:10px 12px;
+ 
+	background-position:40% 0%,45% 0%,
+	50% 0%,55% 0%,60% 0%;}
+}
 
+@media (min-width:1100px) {
+    
+.container__box{
+    
+position: relative;
+       
+width:1360px;
+  
+  }
+ 
+}
 
-
+  
